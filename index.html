@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Accueil</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="images/logotype.png" alt="logo" class="nav__logo" />
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Accueil</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Prochaine Mission</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <aside class="sidebar">
+        <i class="fa-solid fa-earth-americas"></i>
+        <a href="planet.html">Planètes</a>
+        <i class="fa-solid fa-rocket"></i> <a href="#">Véhicules</a>
+        <i class="fa-solid fa-user-astronaut"></i>
+        <a href="#">Personnes</a>
+      </aside>
+
+      <div class="content">
+        <section class="section section--about">
+          <h3 class="section__title">About the universe</h3>
+          <p class="section__text">
+            Bienvenue sur <span>about the universe</span> pour découvrir toutes
+            nos découvertes à propos du monde qui nous entoure !
+          </p>
+          <div class="section__button-wrapper">
+            <button class="button">Découvrir</button>
+          </div>
+        </section>
+
+        <section class="section section--stats">
+          <h3 class="section__title">Les chiffres</h3>
+          <p class="section__text">
+            Nous nous efforcons à archiver toutes nos trouvailles pour vous les
+            partager autant que possible !
+          </p>
+
+          <div class="stats">
+            <div class="stats__item">
+              <div class="stats__image-wrapper">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="stats__info">
+                <h5 class="stats__title">Nombre d'êtres vivants recensés</h5>
+                <span class="stats__number"></span>
+              </div>
+            </div>
+
+            <div class="stats__item">
+              <div class="stats__image-wrapper">
+                <i class="fa-solid fa-shuttle-space"></i>
+              </div>
+              <div class="stats__info">
+                <h5 class="stats__title">Nombre de véhicules recensés</h5>
+                <span class="stats__number"></span>
+              </div>
+            </div>
+
+            <div class="stats__item">
+              <div class="stats__image-wrapper">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <div class="stats__info">
+                <h5 class="stats__title">Nombre de planètes recensées</h5>
+                <span class="stats__number"></span>
+              </div>
+            </div>
+
+            <div class="stats__item">
+              <div class="stats__image-wrapper">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="stats__info">
+                <h5 class="stats__title">Prochaine Mission</h5>
+                <span class="stats__date">10 juin 2021</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="section__button-wrapper" id="btn">
+            <button class="button">Participer à la prochaine mission</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
