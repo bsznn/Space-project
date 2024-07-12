@@ -121,6 +121,13 @@ header {
   position: relative;
 }
 
+.content-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -411,7 +418,7 @@ header {
   }
 
   .add-section {
-    left: 12em;
+    left: 10em;
   }
 }
 
@@ -421,7 +428,7 @@ header {
   }
 
   .add-section {
-    left: 41%;
+    left: 38%;
   }
 
   .nav__logo {
