@@ -410,6 +410,29 @@ header {
   font-style: italic;
 }
 
+/* ALERTES */
+.success,
+.error {
+  position: fixed;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.success {
+  color: rgb(47, 118, 47);
+}
+
+.error {
+  color: rgb(217, 64, 64);
+}
+
 /* Responsive Design */
 
 @media (max-width: 1220px) {
