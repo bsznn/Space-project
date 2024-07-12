@@ -295,26 +295,26 @@ header {
 
 .button-blue,
 .fa-pen-to-square {
-  color: #00adb5; /* Couleur bleue */
+  color: #00adb5;
   transition: color 0.3s;
 }
 
 .button-red,
 .fa-trash {
-  color: #ff4e50; /* Couleur rouge */
+  color: #ff4e50;
   transition: color 0.3s;
 }
 
 .add-button,
 .fa-plus {
-  color: #00b585; /* Couleur bleue */
+  color: #00b585;
   transition: color 0.3s;
 }
 
 .add-section {
   position: absolute;
   bottom: -1em;
-  left: 27em;
+  left: 26.5em;
 }
 
 .stats {
